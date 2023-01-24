@@ -1,0 +1,117 @@
+/* global properties */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+* {
+    scrollbar-color: #cf021a #fff;
+}
+
+/* remove arrows on number input */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+/* button properties */
+button:hover {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default !important;
+}
+
+button {
+    transition: all ease-in 0.3s;
+    transform: perspective(100px) translateZ(0px);
+}
+
+button:hover {
+    transform: perspective(100px) translateZ(5px);
+}
+
+.animateLinkAsButton {
+    transition: all ease-in 0.3s;
+    transform: perspective(100px) translateZ(0px);
+}
+
+.animateLinkAsButton:hover {
+    transform: perspective(100px) translateZ(5px);
+}
+
+/* tap on link on mobile */
+a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* disable touch */
+.stop-touch {
+    touch-action: none !important;
+}
+
+/* remove scrollbar */
+.no-scrollbar {
+    scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/* form properties */
+input,
+textarea {
+    outline: 0;
+    border: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+    border: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    line-height: 120.4%;
+    letter-spacing: -0.02em;
+}
