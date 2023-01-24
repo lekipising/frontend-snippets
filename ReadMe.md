@@ -2,6 +2,6 @@
 
 > A collection of useful code snippets for frontend development
 
-*Ongoing...*
+*Updated regularly*
 
 Contributions are welcome
