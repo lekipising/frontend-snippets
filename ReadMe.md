@@ -5,3 +5,5 @@
 *Updated regularly ⚡*
 
 Contributions are welcome
+
+More snippets found here https://gist.github.com/Lekipising
